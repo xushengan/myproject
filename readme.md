@@ -10,9 +10,9 @@ app：boards
 
 尝试git status 和 git diff功能
 
-
-git add |增加文件到commit
+命令|功能
 --|--
+git add |增加文件到commit
 git status|看哪个文件被改了，但不具体
 git diff|具体看文件被改了哪里
 git commit -m "test"|提交
