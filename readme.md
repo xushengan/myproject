@@ -9,7 +9,6 @@ app：boards
 最后使用git bash手动建立账户，连接远程仓库remote，通过命令行push成功。
 
 尝试git status 和 git diff功能
-<<<<<<< HEAD
 
 
 git add |增加文件到commit
