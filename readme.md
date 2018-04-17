@@ -2,7 +2,7 @@
 ### day 1
 
 在pycharm项目的虚拟环境下创建：
-project：myproject
+project：myproject \n
 app：boards
 
 不知道是公司的问题还是项目环境的问题，使用git同步项目要不就是全量，要不就是同步不成功
