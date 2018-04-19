@@ -24,7 +24,7 @@ DEBUG = True
 
 TEMPLATE_DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0']
 
 
 # Application definition
@@ -69,6 +69,10 @@ DATABASES = {
     }
 }
 
+TEMPLATE_DIRS = (
+    os.path.join(BASE_DIR,'templates'),
+)
+
 # Internationalization
 # https://docs.djangoproject.com/en/1.7/topics/i18n/
 
@@ -87,3 +91,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# static file dir
+STATICFILES_DIRS = [
+   os.path.join(BASE_DIR, 'static'),
+]
