@@ -39,6 +39,7 @@ django会自动为模型提供一种反向关系，即在topic里面设置了use
 当related_name = '+'时，表示不需要反向关系
 
 ForeignKey.related_query_name
+
 	The name to use for the reverse filter name from the target model. Defaults to the value of related_name if it is set, otherwise it defaults to the name of the model:
 
 简单来说，related_query_name是在topic需要筛选User时使用的名称如：
