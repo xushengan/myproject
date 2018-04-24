@@ -18,7 +18,6 @@ class Topic(models.Model):
     starter = models.ForeignKey(User, related_name='topics')
 
 
-
 class Post(models.Model):
     message = models.TextField(max_length=4000)
     topic = models.ForeignKey(Topic, related_name='posts')

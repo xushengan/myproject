@@ -51,3 +51,6 @@ Topic.object.filter('related_query_name'=sth)
 ### day 3 
 url命名空间没有说得太清楚，倒是学到了一些通过正则匹配然后赋值的技巧
 base.html用了一下
+
+### day 4 
+跟着教程敲了好多html和css的引用，不是很懂，学到在views种对模型和模型外键的引用

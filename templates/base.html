@@ -6,8 +6,15 @@
     <link href="https://fonts.googleapis.com/css?family=Baloo+Tamma" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
     <link rel="stylesheet" href="{% static 'css/app.css' %}">
+    {% block stylesheet %}{% endblock %}  <!-- 这里 -->
   </head>
   <body>
+    {% block body %}  <!-- 这里 -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="{% url 'home' %}">Django Boards</a>
+        </div>
+      </nav>
     <div class="container">
       <ol class="breadcrumb my-4">
         {% block breadcrumb %}
@@ -16,5 +23,6 @@
       {% block content %}
       {% endblock %}
     </div>
+  {% endblock body %}
   </body>
 </html>
